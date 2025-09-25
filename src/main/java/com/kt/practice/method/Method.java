@@ -1,4 +1,4 @@
-package com.kt.practice;
+package com.kt.practice.method;
 
 import java.util.Map;
 
@@ -87,7 +87,7 @@ public class Method {
 		System.out.println("알았지? 다녀와~");
 
 		System.out.println("잔돈: " + change + "원 받았다~");
-		
+
 		return Map.of(
 			"product", product,
 			"change", change + "원"
