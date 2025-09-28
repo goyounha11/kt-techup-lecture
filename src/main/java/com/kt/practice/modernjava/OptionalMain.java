@@ -39,9 +39,7 @@ public class OptionalMain {
 		Optional<Person> optionalPerson2 = Optional.empty();
 
 		// optionalPerson2.orElseThrow();
-		optionalPerson2.orElseThrow(() -> {
-			return new IllegalArgumentException();
-		});
+		optionalPerson2.orElseThrow(() -> new IllegalArgumentException());
 		// orElseGet - 값이 없으면 기본값을 제공
 		// orElse
 		// ifPresent
